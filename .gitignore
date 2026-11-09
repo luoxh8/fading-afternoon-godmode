@@ -1,0 +1,13 @@
+# 打包中间产物（exe 走 Releases，不进仓库）
+app/build/
+app/dist/
+*.spec
+__pycache__/
+*.pyc
+release/
+*.zip
+
+# 游戏文件（万一有人在本目录里跑）
+data.win
+data.win.bak
+data.win.new

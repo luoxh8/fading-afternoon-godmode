@@ -1,0 +1,22 @@
+{
+  "game": "Fading Afternoon",
+  "appid": 1687000,
+  "buildid": "21324752",
+  "patch_version": "2.0.0",
+  "generated": "2026-11-09",
+  "source": {
+    "file": "data.win",
+    "sha256": "5efe323afef920131dd2c48b152d72c5f63fd0f5d504994d840241c76e14ccc4",
+    "size": 706180856
+  },
+  "patched": {
+    "file": "data.win",
+    "sha256": "9c2155a4401417d1bee0210f69c1a98d85733060e307ec7beb3848d2c5a554a6",
+    "size": 706182008
+  },
+  "payload": {
+    "install": "payload/godmode.patch.zst",
+    "uninstall": "payload/original.patch.zst",
+    "zstd": "tools/zstd.exe"
+  }
+}
